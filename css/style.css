@@ -389,4 +389,115 @@ template {
 [hidden] {
   display: none; }
 
+h1 {
+  font-size: 5.625rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  margin: 12px 0 0; }
+
+#name {
+  color: white;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  text-align: center;
+  width: 70%;
+  margin: auto; }
+
+h1 {
+  margin: 0; }
+
+.intro {
+  text-align: center; }
+
+@media (min-width: 768px) {
+  #name {
+    color: white;
+    padding: 80px;
+    width: 100%;
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+    text-align: center; }
+
+  header h3 {
+    font-size: 1.4em; } }
+.main-footer {
+  text-align: center; }
+
+*, :after, :before {
+  box-sizing: border-box; }
+
+body {
+  line-height: 2em;
+  color: #343434;
+  font-size: 1.25em; }
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 70%;
+  margin: auto; }
+
+@media (min-width: 768px) {
+  .wrap {
+    min-height: calc(100vh - 26px); }
+
+  .container {
+    width: 100%;
+    max-width: 960px; } }
+#name,
+.main-nav li {
+  display: inline-block; }
+
+.main-nav li {
+  margin-right: 25px;
+  text-align: center; }
+  .main-nav li a {
+    text-decoration: none;
+    border: solid 2px black;
+    padding: 5px 50px;
+    color: black; }
+
+.main-nav ul {
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px 50px;
+  background-color: white;
+  width: 100%; }
+
+.main-nav a:hover {
+  background-color: black;
+  color: white; }
+
+h1 {
+  font-family: "Oswald", sans-serif; }
+
+p {
+  font-family: "Lato", serif; }
+
+.main-nav li {
+  font-family: "Oswald", sans-serif; }
+
+#logo {
+  height: auto;
+  width: 48px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  z-index: 1000; }
+
+.main-header {
+  padding-top: 1em;
+  height: 850px;
+  background-image: linear-gradient(50deg, black, transparent), url("9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+body {
+  background-color: #0e1a25;
+  color: #eee; }
+
 /*# sourceMappingURL=style.css.map */

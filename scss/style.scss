@@ -1,18 +1,26 @@
-@import 'base/_normalize.scss';
+
+@import 'base/_normalize.scss',
 
 
-@import 'utilities/_variables.scss';
-@import 'utilities/_functions.scss';
-@import 'utilities/_mixins.scss';
-@import 'utilities/_helpers.scss';
+ 'utilities/_variables.scss',
+ 'utilities/_functions.scss',
+ 'utilities/_mixins.scss',
+ 'utilities/_helpers.scss',
 
 
-@import 'layout/_header.scss';
-@import 'layout/_footer.scss';
+ 'layout/_header.scss',
+ 'layout/_footer.scss',
+ 'layout/_containers.scss',
 
 
-@import 'components/_typography.scss';
-@import 'components/_buttons.scss';
+ 'components/_nav.scss',
+ 'components/_typography.scss',
+ 'components/_buttons.scss',
+ 'components/_icons.scss',
+ 'components/_images.scss',
+ 'components/_background.scss';
+ 
+
 
 
 

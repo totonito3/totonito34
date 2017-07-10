@@ -1,0 +1,43 @@
+*, :after, :before{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    line-height: 2em;
+    color: $color-text;
+    font-size: 1.25em;
+    
+}
+
+.container{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+
+//===========================================// MEDIA QUERIES
+//===========================================
+
+@media (min-width:$breaks-m){
+    
+    .wrap{
+        min-height: calc(100vh - 26px);
+        
+    }
+    
+    .container{
+        width:100%;
+        max-width: 960px;
+        
+        //margin: auto;
+    }
+    
+    
+}

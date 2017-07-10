@@ -1,0 +1,42 @@
+
+	#name,
+    .main-nav li,
+    {
+        display: inline-block;
+        
+    }
+    .main-nav li{
+        
+        margin-right:25px;
+        text-align: center;
+
+        a{
+        	text-decoration:none;
+        	border: solid 2px black;
+        	padding: 5px 50px;		//definis le cadrant des liens
+        	color:black;
+        	
+
+        }
+        
+    }
+
+
+
+    .main-nav ul{
+
+    	text-align:center;
+        margin-top: 50px;
+        padding: 25px 50px;
+    	background-color: white;
+    	width: 100%;
+
+    }
+
+    .main-nav a:hover{
+
+    	background-color: black;
+    	color:white;
+    	
+
+    }
