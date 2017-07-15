@@ -1,12 +1,14 @@
 
+
+
+
 .main-header {
     padding-top: 1em;
-    height: 850px;
 
     //background-image: url("9.jpg");
     
     background-image:
-    linear-gradient(50deg, black, transparent),
+    linear-gradient(0deg, black, transparent),
      url("9.jpg");
     
     
@@ -34,8 +36,8 @@
 }
 
 body{
-    background-color: $color-bg;
-    color:$color-shade;
+    background-color: black;//$color-bg;
+  
     
 }
 

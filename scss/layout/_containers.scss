@@ -5,19 +5,47 @@
 
 
 body{
-    line-height: 2em;
-    color: $color-text;
+    line-height: 1.5em;
+    color: #bfbfbf;
     font-size: 1.25em;
+
+    
+    h2{
+    color:white;
+    }
+
+    h3{
+    text-transform:uppercase;
+    margin:0 85px;
+    border-bottom:solid 1px white;
+    }
     
 }
 
-.container{
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 70%;
-    margin: auto;
+dl dd{
+    margin: 30px 25px;
+    border-bottom:solid 1px white;
+
+
 }
 
+.container{
+    background-color: $color-bg;
+    text-align:center;
+    padding-top:25px;
+
+}
+
+
+main a{
+    text-decoration:none;
+    color:white;
+}
+
+main ul{
+    list-style:none;
+    text-align: left;
+}
 
 
 
@@ -32,11 +60,20 @@ body{
         
     }
     
+    body{
+    line-height: 2em;
+
+    }
+
+
+
+
     .container{
-        width:100%;
-        max-width: 960px;
         
-        //margin: auto;
+        max-width: 1060px;
+        width: 90%;
+        margin: auto;
+        
     }
     
     
