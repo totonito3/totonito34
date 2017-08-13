@@ -1,6 +1,8 @@
 
 @import 'base/_normalize.scss',
 
+'base/_global.scss',
+
 
  'utilities/_variables.scss',
  'utilities/_functions.scss',
@@ -14,7 +16,6 @@
  'layout/_containers.scss',
 
 
- 'components/_nav.scss',
  'components/_typography.scss',
  'components/_buttons.scss',
  'components/_icons.scss',
