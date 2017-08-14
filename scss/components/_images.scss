@@ -3,20 +3,20 @@
 
 
 .me{
-	background-image: url("../img/me1.jpg");
+	background-image: url("../img/me3.jpg");
 	width: 250px;
 	height:250px;
 	background-repeat: no-repeat;
-	text-align:center;
-	display:block;
+	background-position:top center;
 	color:white;
 	border-radius:50%;
 	list-style: none;
-	//margin-top: 50px;
-	//float:left;
+	
 	position: absolute;
-	top:800px;
-	left:5px;
+	
+	left:1%;//5px;
+	
+	top:20%
 
 }
 

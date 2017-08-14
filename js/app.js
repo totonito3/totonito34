@@ -5,32 +5,7 @@ $(document).ready(function(){
 
 
 
-	jQuery.fn.center = function () {
-    this.css("position","absolute");
-    //this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
-      //                                          $(window).scrollTop()) + "px");
-    this.css("left", Math.max(10, (($(window).width() - $(this).outerWidth()) / 2) + 
-                                                $(window).scrollLeft()) + "px");
-    return this;
-			}
-
-	jQuery.fn.right = function () {
-    this.css("position","absolute");
-    //this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
-      //                                          $(window).scrollTop()) + "px");
-    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + 
-                                                $(window).scrollLeft()) +500 + "px");
-    return this;
-			}
-
-	jQuery.fn.left = function () {
-    this.css("position","absolute");
-    //this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
-      //                                          $(window).scrollTop()) + "px");
-    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + 
-                                                $(window).scrollLeft()) - 500+ "px");
-    return this;
-			}
+	
 
 	
 	var scrollLink=$('.scroll');
@@ -100,7 +75,7 @@ $('.contents').click(function(e){
 //   });
 
 var typed = new Typed('#typed', {
-    stringsElement: '#j',
+    stringsElement: '#presentation',
     typeSpeed: 20,
     fadeOut:true,
     showCursor: true,
@@ -137,22 +112,22 @@ function skillboxes(){
 	var box=$('<div class="contents"></div>');
 
 	$('#skills-section ul:nth-child(2)').wrapAll((box).clone().addClass('programming'));
-	$('.programming').css('background-color','#E5E5E5')//'#0069CC');
+	//$('.programming').css('background-color','#E5E5E5')//'#0069CC');
 
 	$('#skills-section ul:nth-child(3)').wrapAll((box).clone().addClass('database'));
-	$('.database').css('background-color', '#FEFFCB');//'yellow');
+	//$('.database').css('background-color', '#FEFFCB');//'yellow');
 
 	$('#skills-section ul:nth-child(4)').wrapAll((box).clone().addClass('rc'));
-	$('.rc').css('background-color','#CBFFCB')//'green');
+	//$('.rc').css('background-color','#CBFFCB')//'green');
 
 	$('#skills-section ul:nth-child(5)').wrapAll((box).clone().addClass('tools'));
-	$('.tools').css('background-color','#BCF4EE')//'turquoise');
+	//$('.tools').css('background-color','#BCF4EE')//'turquoise');
 
 	$('#skills-section ul:nth-child(6)').wrapAll((box).clone().addClass('frameworks'));
-	$('.frameworks').css('background-color','#FFE4B1')//'orange');
+	//$('.frameworks').css('background-color','#FFE4B1')//'orange');
 
 	$('#skills-section ul:nth-child(7)').wrapAll((box).clone().addClass('os'));
-	$('.os').css('background-color','#99CEFF');//'grey');//'rgba(0,0,0,0.6)'
+	//$('.os').css('background-color','#99CEFF');//'grey');//'rgba(0,0,0,0.6)'
 
 	
 
@@ -287,72 +262,72 @@ function skillboxStyling(first){
 	var sixth=$('.sixth');
 
 
-	$(first).css({'background-color':'#C5ECEB',
-					'z-index':'5',
-					'height': '100vh',
-					'width':'80%',
-					'transform':'scale(1)',
-					//'text-align':'center',
-					'margin':'20px auto'});
-	$(first).center();
+	// $(first).css({'background-color':'#C5ECEB',
+	// 				'z-index':'5',
+	// 				'height': '100vh',
+	// 				'width':'80%',
+	// 				'transform':'scale(1)',
+	// 				//'text-align':'center',
+	// 				'margin':'20px auto'});
+	//$(first).center();
 
 	
-	$(second).css({'background-color':'#E2E2E2',
-						'z-index':'4',
-						'margin-left':'-370px',
-						'margin-top':'20px',
-						'height':'98%',
-						'width':'80%',
-						'transform':'scale(0.8)'
-						});
-	$(second).right();
+	// $(second).css({'background-color':'#E2E2E2',
+	// 					'z-index':'4',
+	// 					'margin-left':'-370px',
+	// 					'margin-top':'20px',
+	// 					'height':'98%',
+	// 					'width':'80%',
+	// 					'transform':'scale(0.8)'
+	// 					});
+	//$(second).right();
 
 	
-	$(third).css({'background-color':'#E2E2E2',
-										'z-index':'4',
-										'transform':'scale(0.8)',
-										'margin-top':'20px',
-										//'transform':'translate(50px)',
-										'margin-left':'-150px',
-										'width':'80%',
-										'height': '98%'});
+	// $(third).css({'background-color':'#E2E2E2',
+	// 									'z-index':'4',
+	// 									'transform':'scale(0.8)',
+	// 									'margin-top':'20px',
+	// 									//'transform':'translate(50px)',
+	// 									'margin-left':'-150px',
+	// 									'width':'80%',
+	// 									'height': '98%'});
 	
-	$(third).left();
+	//$(third).left();
 
-	$(fourth, fifth, sixth).css({'position':'absolute'});
-
-	
-	$(fourth).css({'z-index':'3',
-										'transform':'scale(0.7)',
-										//'transform':'translate(50px)',
-										'margin-top':'20px',
-										'margin-left':'-280px',
-										//'background-color':'red',
-										'width':'80%',
-										'height': '98%'});
-	$(fourth).right();
+	//$(fourth, fifth, sixth).css({'position':'absolute'});
 
 	
-	$(fifth).css({'z-index':'2',
-										'transform':'scale(0.6)',
-										//'transform':'translate(50px)',
-										'margin-left':'-190px',
-										'margin-top':'20px',
-										//'background-color':'yellow',
-										'width':'80%',
-										'height': '98%'});
-	$(fifth).right();
+	// $(fourth).css({'z-index':'3',
+	// 									'transform':'scale(0.7)',
+	// 									//'transform':'translate(50px)',
+	// 									'margin-top':'20px',
+	// 									'margin-left':'-280px',
+	// 									//'background-color':'red',
+	// 									'width':'80%',
+	// 									'height': '98%'});
+	//$(fourth).right();
 
 	
-	$(sixth).css({'z-index':'1',
-										'transform':'scale(0.5)',
-										//'transform':'translate(50px)',
-										'width':'80%',
-										'margin-left':'-120px',
-										'margin-top':'20px',
-										//'background-color':'green',
-										'height': '98%'});
-	$(sixth).right();
+	// $(fifth).css({'z-index':'2',
+	// 									'transform':'scale(0.6)',
+	// 									//'transform':'translate(50px)',
+	// 									'margin-left':'-190px',
+	// 									'margin-top':'20px',
+	// 									//'background-color':'yellow',
+	// 									'width':'80%',
+	// 									'height': '98%'});
+	//$(fifth).right();
+
+	
+	// $(sixth).css({'z-index':'1',
+	// 									'transform':'scale(0.5)',
+	// 									//'transform':'translate(50px)',
+	// 									'width':'80%',
+	// 									'margin-left':'-120px',
+	// 									'margin-top':'20px',
+	// 									//'background-color':'green',
+	// 									'height': '98%'});
+	//$(sixth).right();
 	
 	var actualFocus=('.'+$('.first').attr('class').split(' ')[1]);
 

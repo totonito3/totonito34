@@ -26,8 +26,9 @@ nav{
 	left:0;
 	box-sizing:border-box;
 
+
 	ul{
-		background-color:#E2E2E2;//white;//transparent;
+		background-color:#110901;//#E2E2E2;//white;//transparent;
 		position:fixed;
 		width:100%;
 		z-index:99;
@@ -35,11 +36,12 @@ nav{
 	}
 	ul li{
 		display:inline-block;
-		padding:25px 0;
+		padding:20px 0;
 		//margin-right: 15px;
 		//border-right:3px red solid;
 		//line-height: 5px;
 		position:relative;
+		width:10%;
 
 	}
 
@@ -49,7 +51,8 @@ nav{
   		width: 0.5px;
 
   		position: absolute;
-  		right: 0px;
+  		right: 2px;
+  		margin-right:-15px;
   		top: 20px; // If you want to set a smaller height and center it, change this value
 
   		background-color: #576366; // The color of your border
@@ -61,17 +64,18 @@ nav{
 		text-decoration:none;
 		font-weight: 600;
 		font-size:14px;
-		padding:30px 45px;
-		margin-right:15px;
+		padding:20px 45px;
+		//margin-right:15px;
+		width:10%;
 
 		&:hover{
-			color:#00BDC6;
+			color:#fff;//#2691d9;//#00BDC6;
 		}
 
 	}
 	.home{
 		
-		margin-right:20%;
+		margin-right:10%;//20%;
 		margin-left:1%;
 		background-color:transparent;
 		
@@ -79,6 +83,46 @@ nav{
 	
 }
 
+
+/*tablets*/
+
+@media screen and (max-width:768px){
+	header nav{
+	float:none;
+		.home{
+			margin:0;
+			padding:0;
+			margin-left:-10px;
+		}
+
+		ul{
+			padding-bottom:20px;
+		}
+	}
+
+	header nav ul li{
+	margin:0;
+	padding:0;
+	width:16%;
+	text-align:center;
+			a{
+				margin:0;
+				padding:0;
+			}
+	}
+
+	#logo{
+		position:unset;
+		display:block;
+		margin:0 auto 10px;
+	}
+
+}
+
+/*mobiles*/
+@media screen and (max-width:480px){
+	
+}
 
 
 
