@@ -744,7 +744,7 @@ p {
   .soc a {
     width: 92%; } }
 .me {
-  background-image: url("../img/me3.jpg");
+  background-image: url("../img/me3.JPG");
   width: 250px;
   height: 250px;
   background-repeat: no-repeat;
@@ -757,7 +757,7 @@ p {
   top: 20%; }
 
 #about-section .me2 {
-  background-image: url("../img/me2.jpg"); }
+  background-image: url("../img/me2.JPG"); }
 
 body {
   text-align: center;
