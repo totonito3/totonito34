@@ -37,6 +37,15 @@ $(document).ready(function(){
 				
 
 			}
+
+			if(scrollbarLocation>($('#about-section').offset().top)-100){
+				
+				$('nav ul').css('background-color','#aaa');
+
+			}
+			else{
+				$('nav ul').css('background-color','transparent');
+			}
 			
 
 		})
@@ -331,8 +340,8 @@ function skillboxStyling(first){
 	
 	var actualFocus=('.'+$('.first').attr('class').split(' ')[1]);
 
-	$('#projects-section').css('background-color',($(actualFocus).css('background-color')));
-	
+	//$('#projects-section').css('background-color',($(actualFocus).css('background-color')));
+	$('#projects-section').css('background-color','#aaa');
 
 
 	$(function() {

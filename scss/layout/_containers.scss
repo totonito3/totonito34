@@ -26,10 +26,17 @@ section{
 }
 
 section:nth-child(2){
-	background-color:#110901;//#00BDC6;
+	background-color:#eee;//#00BDC6;
 	position:relative;
 	height:100vh;
 	//transform: skewX(15deg);
+	span, p{
+		color:black;
+		position:relative;
+		top:50px;
+		
+	}
+	z-index:9;
 }
 
 
@@ -116,7 +123,7 @@ footer:nth-child(6){
 #skills-section ul h3{
 	color: #9C6500;//complement(#00BDC6);//#FF3737;//#bfbfbf;
 	font-size:2em;
-	transform: translate(250px, 390px);//(250px
+	transform: translate(290px, 390px);//(250px
 	text-shadow: -70px 26px 6px rgba(150, 150, 150, 1);
 	//margin:15px;
 	display:inline-block;
@@ -202,7 +209,7 @@ dl dd{
 }
 
 .focused{
-	//background-color://#00BDC6;//#f6f6f6;//white;//rgb(204, 204, 204);//grey;
+	//background-color:#00BDC6;//#f6f6f6;//white;//rgb(204, 204, 204);//grey;
 	color:#fff;//#00BDC6;
 
 }
@@ -296,7 +303,7 @@ dl dd{
 
 					.second{
 						background-color:#E2E2E2;
-						background-color:#110901;
+						background-color:#eee;//#110901;
 						opacity:0.8;
 						
 						z-index:4;
@@ -310,7 +317,7 @@ dl dd{
 
 						.third{
 										background-color:#E2E2E2;
-										background-color:#110901;
+										background-color:#eee;//#110901;
 										opacity:0.8;
 										z-index:4;
 										transform:scale(0.5);
@@ -323,7 +330,7 @@ dl dd{
 
 						.fourth{z-index:3;
 										background-color:#E2E2E2;
-										background-color:#110901;
+										background-color:#eee;//#110901;
 										opacity:0.8;
 										transform:scale(0.7);
 										//transform:translate(50px);
@@ -335,7 +342,7 @@ dl dd{
 
 						.fifth{z-index:2;
 										background-color:#E2E2E2;
-										background-color:#110901;
+										background-color:#eee;//#110901;
 										opacity:0.8;
 										transform:scale(0.6);
 										//margin-left:-390px;
@@ -346,7 +353,7 @@ dl dd{
 
 						.sixth{z-index:1;
 										background-color:#E2E2E2;
-										background-color:#110901;
+										background-color:#eee;//#110901;
 										opacity:0.8;
 										transform:scale(0.5);
 										width:80%;

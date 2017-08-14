@@ -3,9 +3,9 @@
 
 
 .me{
-	background-image: url("../img/me3.jpg");
-	width: 250px;
-	height:250px;
+	background-image: url("../img/logo.svg");
+	width: 750px;
+	height:750px;
 	background-repeat: no-repeat;
 	background-position:top center;
 	color:white;
@@ -14,9 +14,10 @@
 	
 	position: absolute;
 	
-	left:1%;//5px;
+	left:20%;//5px;
 	
-	top:20%
+	top:5%;
+	z-index:-1;
 
 }
 
@@ -35,7 +36,7 @@
 	//width: 250px;
 	//height: 276px;
 	//border-radius:50%;
-	background-image: url("../img/me2.jpg");
+	background-image: url("../img/me2.JPG");
 	//background-repeat: no-repeat;
 	//background-attachment: fixed;
 	//background-size: cover;
