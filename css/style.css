@@ -747,15 +747,9 @@ p {
   .soc a {
     width: 92%; } }
 .me {
-<<<<<<< HEAD
   background-image: url("../img/logo.svg");
   width: 750px;
   height: 750px;
-=======
-  background-image: url("../img/me3.JPG");
-  width: 250px;
-  height: 250px;
->>>>>>> e8c989cd036f43980146c15c423c6a5231b2fc60
   background-repeat: no-repeat;
   background-position: top center;
   color: white;
@@ -1034,6 +1028,7 @@ dl dd {
   background-color: #E2E2E2;
   background-color: #eee;
   opacity: 0.8;
+  cursor: pointer;
   z-index: 4;
   margin-top: 20px;
   right: 4%;
@@ -1046,6 +1041,7 @@ dl dd {
   background-color: #eee;
   opacity: 0.8;
   z-index: 4;
+  cursor: pointer;
   transform: scale(0.5);
   margin-top: 20px;
   left: -35%;
@@ -1057,6 +1053,7 @@ dl dd {
   background-color: #E2E2E2;
   background-color: #eee;
   opacity: 0.8;
+  cursor: pointer;
   transform: scale(0.7);
   margin-top: 20px;
   right: -5%;
@@ -1068,6 +1065,7 @@ dl dd {
   background-color: #E2E2E2;
   background-color: #eee;
   opacity: 0.8;
+  cursor: pointer;
   transform: scale(0.6);
   margin-top: 20px;
   width: 80%;
@@ -1081,6 +1079,7 @@ dl dd {
   opacity: 0.8;
   transform: scale(0.5);
   width: 80%;
+  cursor: pointer;
   margin-top: 20px;
   right: -20%;
   height: 98%; }
